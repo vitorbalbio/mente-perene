@@ -1,7 +1,7 @@
 ---
 title: Teleologia e Reducionismo
 date: 2026-07-12
-excerpt: Decompor o mundo em suas partes explica como os fenômenos funcionam, mas nunca por que elas existem. Seguindo esse fio, este ensaio tem como objetivo expor os limites do reducionismo e recuperar o senso de propósito que o materialismo decidiu abandonar.
+excerpt: Decompor o mundo em suas partes nos ajuda a compreender como os fenômenos funcionam, mas não conseguem capturar por que eles existem em primeiro lugar. Seguindo essa contastação, este ensaio tem como objetivo expor os limites do reducionismo e recuperar o senso de propósito que o materialismo acabou por abandonar.
 image: /images/chrome_h6xXXML9M5.jpg
 tags: [reducionismo, teleologia, materialismo, consciência, filosofia da ciência]
 ---

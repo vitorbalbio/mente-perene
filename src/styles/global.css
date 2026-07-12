@@ -441,3 +441,23 @@
 ::view-transition-new(root) {
   animation: 300ms cubic-bezier(0.4, 0, 0.2, 1) both fade-in;
 }
+
+/* Blog post body: 30% larger text, justified.
+   Unlayered so it overrides the `prose prose-xl` styles from the Tailwind
+   Typography plugin. Children use em units, so raising the container
+   font-size scales spacing proportionally. */
+.post-body {
+  font-size: 1.2rem;
+}
+
+.post-body :where(p, li) {
+  text-align: justify;
+}
+
+/* Blog post excerpt (the summary shown under the title).
+   Adjust font-size and text-align here. Unlayered to override the
+   `text-xl` utility on the element. */
+.post-excerpt {
+  font-size: 1.4rem;   /* tamanho do excerpt */
+  text-align: justify;     /* alinhamento: left | justify | center | right */
+}

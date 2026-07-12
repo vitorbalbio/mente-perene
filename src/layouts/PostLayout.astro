@@ -36,7 +36,7 @@ const publishDate = new Date(date);
         <time datetime={publishDate.toISOString()}>{formatDate(date)}</time> • <span aria-label={`${readingTime} minutos de leitura`}>{readingTime} min de leitura</span>
       </div>
       <h1 class="text-5xl mb-6" transition:name={`title-${slug}`}>{title}</h1>
-      {excerpt && <p class="text-xl text-gray-500">{excerpt}</p>}
+      {excerpt && <p class="post-excerpt text-xl text-gray-500">{excerpt}</p>}
 
       {tags && tags.length > 0 && (
         <div class="mt-4 mb-4 flex flex-wrap gap-2" aria-label="Tags">
@@ -67,7 +67,7 @@ const publishDate = new Date(date);
       </div>
     )}
 
-    <div class="max-w-3xl mx-auto prose prose-xl">
+    <div class="max-w-3xl mx-auto prose prose-xl post-body">
       <Fragment set:html={content} />
     </div>
 
