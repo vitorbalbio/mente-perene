@@ -3,6 +3,7 @@ import '../styles/global.css';
 import { ClientRouter } from 'astro:transitions';
 import DarkModeToggle from '../components/ui/DarkModeToggle.astro';
 import Analytics from '@vercel/analytics/astro';
+import { withBase } from '../utils/withBase';
 
 interface Props {
   title: string;
@@ -17,7 +18,7 @@ interface Props {
 const { 
   title, 
   description = "Artigos e pensamentos de uma mente sempre em movimento.",
-  image = "/og-image.png",
+  image = withBase("/og-image.png"),
   type = "website",
   publishedDate,
   modifiedDate,
@@ -67,7 +68,7 @@ const jsonLD = type === 'article' && jsonLDArticle ? jsonLDArticle : jsonLDWebsi
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
     <title>{title} | Mente Perene</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
@@ -126,14 +127,14 @@ const jsonLD = type === 'article' && jsonLDArticle ? jsonLDArticle : jsonLDWebsi
     <div class="bg-white dark:bg-black transition-colors duration-300">
       <header class="mx-auto max-w-4xl py-8">
         <div class="flex items-center justify-between">
-          <a href="/" class="text-2xl font-semibold" transition:animate="fade">Mente Perene</a>
+          <a href={withBase("/")} class="text-2xl font-semibold" transition:animate="fade">Mente Perene</a>
 
           <!-- Desktop Navigation -->
           <div class="hidden md:flex items-center gap-6">
             <nav class="flex items-center gap-6">
-              <a href="/" class="nav-link">Início</a>
-              <a href="/blog" class="nav-link">Blog</a>
-              <a href="/about" class="nav-link">Sobre</a>
+              <a href={withBase("/")} class="nav-link">Início</a>
+              <a href={withBase("/blog")} class="nav-link">Blog</a>
+              <a href={withBase("/about")} class="nav-link">Sobre</a>
             </nav>
             <DarkModeToggle />
           </div>
@@ -160,9 +161,9 @@ const jsonLD = type === 'article' && jsonLDArticle ? jsonLDArticle : jsonLDWebsi
 
         <!-- Mobile Navigation -->
         <nav id="mobile-menu" class="hidden md:hidden mt-6 pt-4 border-t border-gray-200 dark:border-gray-800 space-y-1">
-          <a href="/" class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Início</a>
-          <a href="/blog" class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Blog</a>
-          <a href="/about" class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Sobre</a>
+          <a href={withBase("/")} class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Início</a>
+          <a href={withBase("/blog")} class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Blog</a>
+          <a href={withBase("/about")} class="block px-3 py-2 text-sm text-gray-900 dark:text-gray-300 hover:underline">Sobre</a>
         </nav>
       </header>
       
@@ -176,9 +177,9 @@ const jsonLD = type === 'article' && jsonLDArticle ? jsonLDArticle : jsonLDWebsi
               © {new Date().getFullYear()} Mente Perene
             </div>
             <nav class="flex items-center gap-4">
-              <a href="/" class="nav-link-footer">Início</a>
-              <a href="/blog" class="nav-link-footer">Blog</a>
-              <a href="/about" class="nav-link-footer">Sobre</a>
+              <a href={withBase("/")} class="nav-link-footer">Início</a>
+              <a href={withBase("/blog")} class="nav-link-footer">Blog</a>
+              <a href={withBase("/about")} class="nav-link-footer">Sobre</a>
             </nav>
           </div>
       </footer>

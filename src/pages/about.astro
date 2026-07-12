@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../utils/withBase';
 ---
 
 <BaseLayout title="About">
@@ -47,7 +48,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p>
         Whether you're a developer looking to share code snippets, a writer seeking a clean platform for your 
         stories, or anyone in between, Brook provides the perfect starting point for your content. Check out the 
-        <a href="/blog">Blog</a> to see it in action.
+        <a href={withBase("/blog")}>Blog</a> to see it in action.
       </p>
     </div>
   </div>

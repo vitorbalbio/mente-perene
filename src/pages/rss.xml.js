@@ -1,5 +1,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
+import { withBase } from '../utils/withBase';
 
 export async function GET(context) {
   const posts = await getCollection('posts');
@@ -17,7 +18,7 @@ export async function GET(context) {
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.excerpt,
-      link: `/posts/${post.id}/`,
+      link: withBase(`/posts/${post.id}/`),
     })),
     customData: `<language>pt-br</language>`,
   });

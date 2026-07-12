@@ -3,6 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import PostNavigation from '../components/PostNavigation.astro';
 import { formatDate } from '../utils/date';
 import { optimizeImagePath } from '../utils/optimizeImagePath';
+import { withBase } from '../utils/withBase';
 
 const { frontmatter, headings, prevPost, nextPost } = Astro.props;
 const { title, date, tags, image, excerpt } = frontmatter;
@@ -25,7 +26,7 @@ const publishDate = new Date(date);
 <BaseLayout
   title={title}
   description={excerpt}
-  image={optimizedImagePath || image}
+  image={withBase(optimizedImagePath || image)}
   type="article"
   publishedDate={publishDate}
 >
@@ -41,7 +42,7 @@ const publishDate = new Date(date);
         <div class="mt-4 mb-4 flex flex-wrap gap-2" aria-label="Tags">
           {tags.map((tag) => (
             <a
-              href={`/tags/${tag}`}
+              href={withBase(`/tags/${tag}`)}
               class="tag"
               aria-label={`View all posts tagged ${tag}`}
             >
@@ -55,7 +56,7 @@ const publishDate = new Date(date);
     {optimizedImagePath && (
       <div class="max-w-4xl mx-auto mt-2 mb-10 feature-image" transition:name={`image-${slug}`}>
         <img
-          src={optimizedImagePath}
+          src={withBase(optimizedImagePath)}
           alt={`Imagem destacada de "${title}"`}
           class="w-full h-full object-cover"
           loading="eager"

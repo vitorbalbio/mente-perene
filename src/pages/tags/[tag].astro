@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostList from '../../components/PostList.astro';
+import { withBase } from '../../utils/withBase';
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts');
@@ -32,7 +33,7 @@ const sortedPosts = posts.sort((a, b) =>
 // Format posts for the PostList component
 const formattedPosts = sortedPosts.map(post => ({
   ...post,
-  url: `/posts/${post.id}`,
+  url: withBase(`/posts/${post.id}`),
   frontmatter: post.data
 }));
 ---
@@ -49,7 +50,7 @@ const formattedPosts = sortedPosts.map(post => ({
     <PostList posts={formattedPosts} />
 
     <div class="mt-12 text-center">
-      <a href="/blog" class="cta-button">
+      <a href={withBase("/blog")} class="cta-button">
         Ver todos os posts
       </a>
     </div>
