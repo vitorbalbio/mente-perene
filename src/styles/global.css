@@ -461,3 +461,20 @@
   font-size: 1.4rem;   /* tamanho do excerpt */
   text-align: justify;     /* alinhamento: left | justify | center | right */
 }
+
+/* Margem horizontal ao redor do site inteiro (header, conteúdo e rodapé).
+   Ajuste os valores aqui para controlar o espaçamento nas laterais. */
+:root {
+  --site-padding-x: 1rem;      /* margem no mobile */
+}
+
+@media (min-width: 768px) {
+  :root {
+    --site-padding-x: 1.5rem;  /* margem em telas maiores */
+  }
+}
+
+.site-shell {
+  padding-left: var(--site-padding-x);
+  padding-right: var(--site-padding-x);
+}
