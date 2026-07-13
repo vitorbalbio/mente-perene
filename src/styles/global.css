@@ -452,14 +452,16 @@
 
 .post-body :where(p, li) {
   text-align: justify;
+  line-height: 1.6;        /* distância entre linhas do corpo */
 }
 
 /* Blog post excerpt (the summary shown under the title).
-   Adjust font-size and text-align here. Unlayered to override the
-   `text-xl` utility on the element. */
+   Adjust font-size, text-align and line-height here. Unlayered to override
+   the `text-xl` utility on the element. */
 .post-excerpt {
-  font-size: 1.4rem;   /* tamanho do excerpt */
+  font-size: 1.4rem;       /* tamanho do excerpt */
   text-align: justify;     /* alinhamento: left | justify | center | right */
+  line-height: 1.4;        /* distância entre linhas do excerpt */
 }
 
 /* Margem horizontal ao redor do site inteiro (header, conteúdo e rodapé).
@@ -477,4 +479,17 @@
 .site-shell {
   padding-left: var(--site-padding-x);
   padding-right: var(--site-padding-x);
+}
+
+/* Largura máxima da coluna de conteúdo (cabeçalho, posts, rodapé).
+   Ajuste este valor para deixar o conteúdo mais largo ou mais estreito.
+   Referência: 48rem (~768px, antigo), 56rem (~896px), 64rem (~1024px), 72rem (~1152px). */
+:root {
+  --content-max-width: 52rem;
+}
+
+.content-container {
+  max-width: var(--content-max-width);
+  margin-left: auto;
+  margin-right: auto;
 }
