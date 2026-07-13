@@ -447,7 +447,7 @@
    Typography plugin. Children use em units, so raising the container
    font-size scales spacing proportionally. */
 .post-body {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .post-body :where(p, li) {
@@ -485,7 +485,7 @@
    Ajuste este valor para deixar o conteúdo mais largo ou mais estreito.
    Referência: 48rem (~768px, antigo), 56rem (~896px), 64rem (~1024px), 72rem (~1152px). */
 :root {
-  --content-max-width: 52rem;
+  --content-max-width: 48rem;
 }
 
 .content-container {
