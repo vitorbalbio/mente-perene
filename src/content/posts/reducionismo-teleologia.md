@@ -1,23 +1,23 @@
 ---
 title: Teleologia e Reducionismo
 date: 2026-07-12
-excerpt: Decompor o mundo em suas partes nos ajuda a compreender como os fenômenos funcionam, mas não consegue capturar por que eles existem em primeiro lugar. Seguindo essa constatação, este ensaio tem como objetivo expor os limites do reducionismo e recuperar o senso de propósito que o materialismo acabou por abandonar.
-image: /images/chrome_h6xXXML9M5.jpg
+excerpt: Decompor o mundo em suas partes nos ajuda a compreender como os fenômenos funcionam, mas não consegue capturar por que eles existem em primeiro lugar. A partir dessa constatação podemos analisar os limites do reducionismo como método e metafísica e no processo recuperar o senso de propósito que o materialismo acabou por abandonar.
+image: /images/0.png
 tags: [reducionismo, teleologia, materialismo, consciência, filosofia da ciência]
 ---
-Nas ciências naturais o método principal usado para compreender o mundo é chamado "Reducionismo". Reducionismo é o processo de apreender algo a partir de suas partes ou de sua constituição. Essa tradição, ou método, tem uma longa história de desenvolvimento.
+Nas ciências naturais, o principal método usado para compreender o mundo é chamado "Reducionismo" e ele consiste no processo de apreender algo sobre o mundo a partir de suas partes ou de sua constituição. Essa tradição, ou método, tem uma longa história de desenvolvimento.
 
 Descartes, em seu *Discurso do Método*, estabeleceu as bases filosóficas e metodológicas que posteriormente dariam forma ao reducionismo como aplicado hoje em dia. Nele, ele exprime a ideia de "dividir" o problema em partes menores, de forma a facilitar a sua compreensão:
 
-> O segundo preceito era dividir cada uma das dificuldades que eu examinasse em tantas parcelas quanto fosse possível e necessário para melhor resolvê-las.
+> "O segundo preceito era dividir cada uma das dificuldades que eu examinasse em tantas parcelas quanto fosse possível e necessário para melhor resolvê-las."
 
 O Reducionismo, como método, é portanto uma ferramenta de investigação do tipo "dividir para conquistar": se um problema é muito complexo, podemos quebrá-lo em problemas menores e assim dividir o trabalho, ou atacar cada parte, uma de cada vez, e por fim buscar uma melhor compreensão de "como" funciona o objeto de estudo.
 
-Porém o Reducionismo, como praticado em grande parte hoje em dia, não tem somente um aspecto prático; ele tem embutida em si uma presunção metafísica sobre o mundo. Essa presunção é a de que o mundo "pode" ser dividido e entendido em partes, e a de que, ao fazer isso, nada está sendo perdido no processo. Essa ideia (a de que "podemos" quebrar o próprio universo em "pedaços" e, ao estudar seus constituintes, ter uma visão completa do mundo) está na origem do pensamento científico e remonta à Grécia antiga.
+Porém o Reducionismo, como praticado em grande parte hoje em dia, não tem somente um aspecto prático; ele tem embutida em si uma presunção metafísica sobre o mundo. Essa presunção é a de que o mundo "pode" ser dividido e entendido em partes, e a de que, ao fazer isso, nada está sendo perdido no processo. Essa ideia (a de que "podemos" quebrar o próprio universo em "pedaços" e, ao estudar seus constituintes, ter uma visão completa do mundo) está na origem do pensamento científico moderno mas remonta à Grécia antiga.
 
 Nos séculos IV e V a.C., Demócrito e Leucipo desenvolveram o Atomismo. Nessa visão de mundo, toda a realidade é composta de partículas indivisíveis chamadas "átomos"; a nossa visão moderna de átomos vem exatamente desse período, e esse foi o início do materialismo como o conhecemos. Em texto atribuído a Demócrito por Sexto Empírico, encontramos:
 
-> Por convenção existe o doce, por convenção existe o amargo, por convenção existe o quente, por convenção existe o frio, por convenção existe a cor; na realidade existem apenas átomos e vazio.
+> "Por convenção existe o doce, por convenção existe o amargo, por convenção existe o quente, por convenção existe o frio, por convenção existe a cor; na realidade existem apenas átomos e vazio".
 
 A ideia de que o universo "é" um conjunto de pequenas "partes" que, agregadas, são os objetos da nossa experiência, permeia toda a fundação do materialismo. A própria história do materialismo e de grande parte da ciência moderna é, em si, uma corrida para baixo, sempre buscando a causa anterior ao fenômeno, o componente que compõe a coisa ou a estrutura anterior que a organiza.
 
@@ -25,13 +25,13 @@ Como método de investigação consciente, o reducionismo é útil; ele é, em g
 
 Essas presunções passam despercebidas pela ciência como praticada cotidianamente, mas são extremamente evidentes para o filósofo atento. Mesmo na antiguidade, Aristóteles já identificava o problema do atomismo e outros métodos de "reducionismo" no livro *Metafísica*:
 
-> No caso de todas as coisas que têm várias partes e nas quais a totalidade não é, por assim dizer, um mero amontoado, mas o todo é algo além das partes, há uma causa.
+> "No caso de todas as coisas que têm várias partes e nas quais a totalidade não é, por assim dizer, um mero amontoado, mas o todo é algo além das partes, há uma causa".
 
 De forma sucinta, Aristóteles identifica que, para além das "partes" ou de um "como", existe também uma "causa" ou um "porquê". Ele cita essa regra como sendo vinculada a "tudo o que não é um mero amontoado", mas quem poderia caracterizar o que é ou não um "mero amontoado"? Uma rocha parece, de fato, à primeira vista, um mero amontoado, mas uma panela de pedra não é também um mero amontoado das mesmas moléculas? E não tem ela também uma causa e função? Na natureza existe estrutura e ordem causal em tudo, mesmo quando os princípios responsáveis por essa organização ainda não são conhecidos.
 
 Já no século XX, o filósofo húngaro Michael Polanyi escreveu diversos trabalhos críticos sobre o reducionismo científico, em especial identificando os problemas associados às áreas biológicas. Em seu livro *Life's Irreducible Structure* (1968), ele escreve (traduzido livremente):
 
-> As operações de um nível superior não podem ser explicadas pelas leis que governam as suas partes no nível imediatamente inferior. [...] Cada nível está sujeito a um controle duplo; [...] o significado do nível superior não pode ser explicado pela análise redutiva dos elementos que formam os níveis inferiores.
+> "As operações de um nível superior não podem ser explicadas pelas leis que governam as suas partes no nível imediatamente inferior. [...] Cada nível está sujeito a um controle duplo; [...] o significado do nível superior não pode ser explicado pela análise redutiva dos elementos que formam os níveis inferiores".
 
 No livro, Polanyi desenvolve a ideia de que a vida obedece às regularidades encontradas na física e na química, mas a organização que torna essa matéria um sistema "vivo" pertence a outro nível de existência. Ele propõe uma analogia com um relógio: imagine um relógio mecânico em que cada peça obedece às leis físicas, mas onde estão as leis que posicionam cada peça em seu lugar perfeitamente, de modo a possibilitar que o relógio, seguindo as leis físicas, marque a hora?
 
@@ -71,7 +71,7 @@ A filosofia tem um nome para esses elementos da experiência que não existem fi
 
 Os *Qualia* são os aspectos subjetivos da consciência, aquilo que uma experiência é "por dentro", introspectivamente, para quem a experiencia. Não podem ser totalmente comunicados, deduzidos, nem mesmo reduzidos a nenhum processo físico conhecido. Como você deve imaginar, esse é um imenso problema para o materialismo e para o reducionismo. Por isso, foi batizado pelo filósofo australiano David Chalmers como "o Problema Difícil da Consciência", e é uma das principais elaborações filosóficas do século XX. Em tradução livre, ele disse em seu artigo *Facing Up to the Problem of Consciousness*, de 1995:
 
-> O problema realmente difícil da consciência é o problema da experiência. Quando pensamos e percebemos, ocorre um intenso processamento de informações, mas há também um aspecto subjetivo... Todos eles são estados de experiência...
+> "O problema realmente difícil da consciência é o problema da experiência. Quando pensamos e percebemos, ocorre um intenso processamento de informações, mas há também um aspecto subjetivo... Todos eles são estados de experiência..."
 
 Os *Qualia* (e a própria consciência em si) são um exemplo, talvez o mais claro, da existência de fenômenos do tipo "emergência forte" no mundo, e proveem um grande desafio para o materialismo. Pois, se a consciência não for "reduzida" aos padrões de ativação neuronal do cérebro, então a ciência terá de admitir que o físico não é o nível fundamental da realidade. Existirá algo no mundo que estará além dos limites do que ela define ser possível. Iremos explorar esse tema em detalhes mais adiante.
 
@@ -103,7 +103,7 @@ Dentro de uma visão estritamente materialista, a matéria é aquilo que existe 
 
 Essas leis, portanto, precisam elas próprias de um "porquê". Como observou o físico Eugene Wigner ao refletir sobre a estranha correspondência entre abstração matemática e realidade física:
 
-> A enorme utilidade da matemática nas ciências naturais é algo que beira o misterioso, e não há uma explicação racional para isso.
+> "A enorme utilidade da matemática nas ciências naturais é algo que beira o misterioso, e não há uma explicação racional para isso."
 
 A matemática é a fundação sobre a qual todas as ciências naturais constroem suas descrições mais profundas da realidade. O problema surge quando confundimos o sucesso dessa descrição com uma explicação completa da própria existência da ordem que ela revela. A matemática revela as regularidades do mundo, mas a existência de um mundo capaz de ser descrito por tais regularidades permanece uma questão anterior ao próprio método científico.
 

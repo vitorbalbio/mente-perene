@@ -227,7 +227,7 @@
   
   /* Blockquotes */
   blockquote {
-    @apply pl-4 border-l-4 border-gray-300 italic my-6 text-gray-700;
+    @apply pl-4 border-l-4 border-gray-300 dark:border-amber-200/60 italic my-6 text-gray-700 dark:text-amber-100/90;
   }
   
   blockquote p {
@@ -447,7 +447,7 @@
    Typography plugin. Children use em units, so raising the container
    font-size scales spacing proportionally. */
 .post-body {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .post-body :where(p, li) {
