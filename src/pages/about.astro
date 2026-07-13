@@ -8,14 +8,38 @@ import { withBase } from '../utils/withBase';
     <header class="mb-12 text-center" transition:animate="fade">
       <h1 class="text-5xl mb-4">Quem?</h1>
       <p class="text-xl text-muted-foreground">
-        Não se apegue à pessoa, somente às idéias, mas se quiser saber mais sobre mim...
+        Não se apegue à pessoa, somente às ideias, mas se quiser saber mais sobre mim...
       </p>
     </header>
     
     <div class="prose prose-lg dark:prose-invert max-w-none" transition:animate="fade">
       <p>
-        Meu nome é Vitor Balbio, sou morador do Rio de Janeiro e apenas mais uma alma em busca de conhecimento sobre o mundo e o sentido da vida. Se você gostou do conteúdo entre em contato pelas minhas redes sociais. 
+        Meu nome é Vitor Balbio, sou morador do Rio de Janeiro e apenas mais uma alma em busca de conhecimento sobre o mundo e o sentido da vida. Se você gostou do conteúdo fique a vontade para compartilhar e/ou entrar em contato.
       </p>
+    </div>
+
+    <div class="mt-10 flex justify-center gap-6" transition:animate="fade">
+      <a
+        href="mailto:vitorbalbio@gmail.com"
+        aria-label="E-mail"
+        class="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-md"
+      >
+        <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="14" rx="2" />
+          <path d="m3 7 9 6 9-6" />
+        </svg>
+      </a>
+      <a
+        href="https://www.instagram.com/mente_perene/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        class="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded-md"
+      >
+        <svg class="h-7 w-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5a4.25 4.25 0 0 0 4.25 4.25h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5a4.25 4.25 0 0 0-4.25-4.25h-8.5Zm8.75 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z" />
+        </svg>
+      </a>
     </div>
   </div>
 </BaseLayout>
