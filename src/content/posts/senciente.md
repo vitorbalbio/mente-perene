@@ -52,7 +52,7 @@ E o que dizer de um planeta? De um sistema solar, de uma galáxia ou mesmo do un
 
 ### TL;DR
 
-Se a senciência se manifesta em nós e não há razão para supor que ela seja uma propriedade exclusiva de alguma estrutura particular, seja um cérebro, um corpo ou um indivíduo, então ela deverá estar presente em todo o universo. Desse modo, não somos seres externos que observam o universo de fora, mas uma parte do próprio universo que, por um momento, se tornou capaz de reportar suas próprias experiências. E talvez seja exatamente isso que observamos nos estados de meditação profunda e de dissolução do ego: quando as fronteiras do "eu" se desfazem, o que resta é a pura, simples e primitiva senciência que, ao que tudo indica, sempre esteve presente em toda parte.
+Se a senciência se manifesta em nós e não temos razão para supor que ela seja uma propriedade exclusiva de alguma estrutura humana particular, então ela deverá estar presente em todo o universo. Sob essa ótica, nós, seres humanos, não seríamos entidades externas que observam o mundo de um ponto de vista objetivo privilegiado, mas uma parte do próprio universo que, por através de nossa estrutura biológica, se tornou capaz de reportar suas próprias experiências. E talvez seja exatamente isso que observamos nos estados de meditação profunda e de dissolução do ego: quando as fronteiras do "eu" se desfazem, o que resta é a pura, simples e primitiva senciência que, ao que tudo indica, sempre esteve presente em toda parte.
 
 ## Referências
 
